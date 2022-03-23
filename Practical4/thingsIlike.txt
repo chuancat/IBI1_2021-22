@@ -1,0 +1,22 @@
+I like milk
+I like juice
+I like reading
+<<<<<<< HEAD
+I like painting
+I like listening to music very much
+I like going hiking
+I like sunshine
+I like orange
+I like studying
+I like making friends
+=======
+I like painting
+I like listening to music
+I like sunshine
+I don't like orange
+I like purple
+I like dancing
+I like ramen
+I like writing songs
+I like singing
+>>>>>>> Jaechan
