@@ -10,5 +10,5 @@ while (n**2+n+2)/2<64:
       n+=1
       p = (n**2+n+2)/2
       
-print("The number of pieces of pizza is"+ str(p))
+print("The number of pieces of pizza is "+str(p))
       
