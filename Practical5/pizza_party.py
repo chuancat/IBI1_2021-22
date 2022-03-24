@@ -5,10 +5,11 @@
 # check if p>=64
 # if yes: done
 # if no: let n+1 equals to n
-n=1
-p=(n**2+n+2)/2
-while p<64:
-      n+=1
 
-print(p)
+n=1
+while (n**2+n+2)/2<64:
+      n+=1
+      p = (n**2+n+2)/2
+      
+print(The total number of piecesof pizza is str(p))
       
