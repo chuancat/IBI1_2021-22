@@ -1,0 +1,10 @@
+# Third note on 3/24/22, finally I achieved it! What a long process.
+
+# Second note from 3/23/22, I managed to finish the practical. Through discussion with my friends, I learnt a lot. And everything became better.
+
+# Note from 3/9/22, I have almost finished the first part Git, but there were some confusing errors which stuck me. I thought I followed each step but the outputs were strange. 
+
+
+During this course, I have learnt basic git language, get familiar with python.
+
+I have also made my own webpage, it seems be not as complex as I imagined before. And I form some clear understanding of coding.
