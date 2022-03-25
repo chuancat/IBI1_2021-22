@@ -18,8 +18,7 @@ plt.scatter(x, y, marker='o')
 
 plt.show()
 
-# create a variable of the paternal age
+# create a variable x of the paternal age
 x = 30
-paternal_age = (30, 35, 40, 45, 50, 55, 60, 65, 70, 75)
-risk = paternal_age[x]
-print(risk)
+print(paternal_age['x'])
+
