@@ -21,5 +21,5 @@ plt.show()
 # create a variable of the paternal age
 x = 30
 paternal_age = (30, 35, 40, 45, 50, 55, 60, 65, 70, 75)
-rask = paternal_age['x']
+r = paternal_age['x']
 print(rask)
