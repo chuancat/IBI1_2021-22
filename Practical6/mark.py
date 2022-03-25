@@ -13,7 +13,7 @@ import matplotlib.pyplot as plt
 #import parameter
 n = 8
 mark = (45, 36, 86, 57, 53, 92, 65, 45)
-plt.title('Rob's marks')
+plt.title("Rob's marks")
 plt.boxplot(mark,
             vert = True,
             whis = 1.5,
