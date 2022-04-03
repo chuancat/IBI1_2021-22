@@ -56,31 +56,12 @@ A = []
 B = []
 for n in range(0,92): 
    a = china.iloc[n,1]   
-   A.append(a)
-   n+=1
-plt.boxplot(A,
-            vert = True,
-            whis = 1.5,
-            patch_artist = True,
-            meanline = True,
-            showbox = True,
-            showcaps = True,
-            showfliers = True,
-            notch = False
-               )
-plt.title('new cases in China')
-plt.xlabel('new cases')
-
-plt.show()
-
-# function:plot the new deaths in China as a box plot
-n = 0
-B = []
-for n in range(0,92):
    b = china.iloc[n,2]
+   A.append(a)
    B.append(b)
    n+=1
-plt.boxplot(B,
+Data = (A,B)
+plt.boxplot(Data,
             vert = True,
             whis = 1.5,
             patch_artist = True,
@@ -90,8 +71,9 @@ plt.boxplot(B,
             showfliers = True,
             notch = False
                )
-plt.title('new deaths in China')
-plt.xlabel('new deaths')
 
 plt.show()
 
+# 
+plt.plot(A, B, 'b+')
+plt.show()
