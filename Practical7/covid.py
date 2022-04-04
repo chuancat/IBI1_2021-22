@@ -71,6 +71,8 @@ plt.boxplot(Data,
             showfliers = True,
             notch = False
                )
+plt.ylabel('number')
+plt.xlabel('situation')
 
 plt.show()
 
