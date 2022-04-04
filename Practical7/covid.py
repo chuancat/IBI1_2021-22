@@ -86,5 +86,6 @@ plt.title('new cases and new deaths in China')
 plt.xlabel('date')
 plt.xticks(range(0,82),my_xticks)
 plt.xticks(rotation=-90)            
+
 plt.show()
             
