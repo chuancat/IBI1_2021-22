@@ -74,6 +74,10 @@ plt.boxplot(Data,
 
 plt.show()
 
-# 
-plt.plot(A, B, 'b+')
+#function:plot new cases and new deaths in China 
+plt.plot(A,'c+',B, 'y+')
+plt.title('new cases and new deaths in China')
+plt.xlabel('date')
+plt.xticks(rotation= -90)
+
 plt.show()
