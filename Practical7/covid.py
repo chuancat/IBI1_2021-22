@@ -75,9 +75,16 @@ plt.boxplot(Data,
 plt.show()
 
 #function:plot new cases and new deaths in China 
+n = 0
+my_xticks =[]
+for n in range(0,82):
+    x = china.iloc[n,0]
+    my_xticks.append(x)
+    n+=1
 plt.plot(A,'c+',B, 'y+')
 plt.title('new cases and new deaths in China')
 plt.xlabel('date')
-plt.xticks(rotation= -90)
-
+plt.xticks(range(0,82),my_xticks)
+plt.xticks(rotation=-90)            
 plt.show()
+            
