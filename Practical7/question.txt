@@ -1,6 +1,6 @@
 question:plot a boxplot of total case number in different countries on 14 
 March 2020
-line number:93-118
+line number:95-120
 discussion: 
 1.I used a new code called array which turns dataframe to list
 2.from the boxplot, we found total cases of different countries on 14 
