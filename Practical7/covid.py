@@ -84,8 +84,35 @@ for n in range(0,82):
 plt.plot(A,'c+',B, 'y+')
 plt.title('new cases and new deaths in China')
 plt.xlabel('date')
+plt.ylabel('number')
 plt.xticks(range(0,82),my_xticks)
 plt.xticks(rotation=-90)            
 
 plt.show()
             
+# answer the question: plot a boxplot of total case numbers in different 
+#countries on 14 March 2020
+n = 0 
+my_rows3 = []
+for n in range(0,7996):
+    a = covid_data.loc[n,"date"]
+    w = a == "2020-03-14"  
+    my_rows3.append(w)
+    n+=1
+cases = covid_data.loc[my_rows3,"total_cases"]
+totalcases = np.array(cases)
+plt.boxplot(totalcases,
+            vert = True,
+            whis = 1.5,
+            patch_artist = True,
+            meanline = True,
+            showbox = True,                   
+            showcaps = True,
+            showfliers = True,
+            notch = False
+               )
+plt.title('total case number in different countries on 14 March 2020')
+plt.xlabel('14/3/2020')
+plt.ylabel('number')
+
+plt.show()
