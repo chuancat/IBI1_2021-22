@@ -1,6 +1,6 @@
 # What does this piece of code do?
-# Answer: when progress is smaller than 10, progress+1, when progress 
-# equals 9, draw a number between 1 and 100 
+# Answer: progress becomes 1, n equals a random number between 1 and 100, 
+# output n 
 
 # Import libraries
 # randint allows drawing a random number,
@@ -13,8 +13,7 @@ from math import ceil
 
 progress=0
 while progress<10:
-# progress = progress+1
-	progress+=1
-	n = randint(1,100)
+        progress+=1
+        n = randint(1,100)
 
 print(n)
