@@ -1,6 +1,6 @@
 # What does this piece of code do?
-# Answer: progress becomes 1, n equals a random number between 1 and 100, 
-# output n 
+# Answer: when progress equals 10, output a random number between 1 
+# and 100 
 
 # Import libraries
 # randint allows drawing a random number,
