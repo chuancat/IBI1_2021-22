@@ -1,6 +1,14 @@
-# dictionary
-paternal_age = {'30':1.03, '35':1.07, '40':1.11, '45':1.17, '50':1.23, 
-'55':1.32, '60':1.42, '65':1.55, '70':1.72, '75':1.94}
+# build a dictionary
+age = {'30':1.03,'35':1.07,'40':1.11,'45':1.17,'50':1.23,'55':1.32,'60':1.42,'65':1.55,'70':1.72,'75':1.94}
+# display frequency table
+list1 = list(age.keys())
+list2 = list(age.values())
+n=0
+for n in range(0,10):
+    p=list1[n]
+    q=list2[n]
+    print(p,"    ",q)
+    n+=1 
 
 # plt.scatter
 # import necessary mudule
