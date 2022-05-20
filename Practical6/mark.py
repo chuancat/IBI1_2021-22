@@ -23,6 +23,8 @@ plt.boxplot(mark,
             showfliers = True,
             notch = False  
                )
+plt.ylabel('mark')
+plt.xlabel("distribution of Rob's marks")
 plt.show()
 
 #pass
