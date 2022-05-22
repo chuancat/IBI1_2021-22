@@ -9,4 +9,4 @@ def NC_calculator(nc):
     print('G is '+str(g))
     print('C is '+str(c))
     print('T is '+str(t))    
-NC_calculator('ACGTGTCGTCA')     
+NC_calculator('ACgTGTcGTCa')     
