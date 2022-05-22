@@ -12,16 +12,17 @@ for line in file:
     seqs.append(line.replace('\n',''))
 file.close()
 # split each sequence
-seqs=''
+sum=''
 for seq in seqs:
-    seqs+=(str(seq))
-seqs=re.split(r'>',seqs)
+    sum+=(str(seq))
+sum=re.split(r'>',sum)
 # identify sequence
 n=1
-for n in range(1,len(seqs)):
-    if re.search('GAATTC',seqs[n]):
-       name=re.findall(r'gene:(.+?)\s',seqs[n])
-       gene=re.findall(r'].+',seqs[n])
+for n in range(1,len(sum)):
+    if re.search('GAATTC',sum[n]):
+       name=re.findall(r'gene:(.+?)\s',sum[n])
+       gene=str(re.findall(r'](.+)',sum[n]))
+       gene=gene.strip('[')
        gene=gene.strip(']')
        len=len(gene)
        new.write('>',str(name),'   ',len)
