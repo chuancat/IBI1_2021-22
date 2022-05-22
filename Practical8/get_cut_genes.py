@@ -24,8 +24,8 @@ for n in range(1,len(sum)):
        gene=str(re.findall(r'](.+)',sum[n]))
        gene=gene.strip('[')
        gene=gene.strip(']')
-       len=len(gene)
-       new.write('>'+str(name)+'   '+str(len))
+       l=len(gene)
+       new.write('>'+str(name)+'   '+str(l))
        new.write(gene)
 new.close()
 
