@@ -25,7 +25,7 @@ for n in range(1,len(sum)):
        gene=gene.strip('[')
        gene=gene.strip(']')
        len=len(gene)
-       new.write('>',str(name),'   ',len)
+       new.write('>'+str(name)+'   '+str(len))
        new.write(gene)
 new.close()
 
