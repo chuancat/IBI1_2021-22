@@ -1,7 +1,7 @@
 def Cba_calculator(a,b):
     """
     Input:a,the total money that the user has, a positive int
-          b,the pricr of one chocolate bar, a positive int    
+          b,the price of one chocolate bar, a positive int    
     """
     m=a//b
     n=a%b
