@@ -1,0 +1,15 @@
+Summary and interpretation
+human and mouse: 
+percentage of identical amino acids is 0.9653979238754326%
+alignment score: 1490
+human and random:
+The percentage of identical amino acids is 0.2768166089965396%
+alignment score: -351
+mouse and random:
+percentage of identical amino acids is 0.3114186851211076%
+alignment score: -348.
+some genes of human and mice are very similar, which may be used for 
+necessary life activities.
+Although this gene is similar, many of human amino acids are different 
+from mices'.  
+but alignment of this mice gene with random nearly has no difference.   
